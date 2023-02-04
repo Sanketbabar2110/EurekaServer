@@ -1,0 +1,12 @@
+#Property to change server port
+server:
+  port: 8761
+  
+#Properties for EurekaServer
+
+#do not fetch any registry which is not configured
+eureka:
+  client:
+    fetch-registry: false
+#do not register with other EurekaServer
+    register-with-eureka: false
